@@ -1,0 +1,9 @@
+[package]
+name = "valorant-endpoint-parser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = "1.11.1"
+serde_json = "1.0.138"
+serde = { version = "1.0.217", features = ["derive"] }
